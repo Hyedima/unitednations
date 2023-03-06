@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Design</title>
+  </head>
+  <body>
+   <div class="container-fluid bg-dark text-light py-3">
+       <header class="text-center">
+           <h1 class="display-6">Welcome to our page</h1>
+       </header>
+   </div>
+   <section class="container my-2 bg-dark w-100 text-light p-2">
+    <form class="row g-3 p-3">
+      <div class="col-md-4">
+        <center>
+        <h6> INSTRUCTIONS </h6></center><br>
+        <h6> Please answer each question clearly and
+          completely. TYPE OR PRINT LEGIBLY.
+          Read carefully and follow all directions
+         </h6>
+        </div>
+       <div class="col-md-4">
+        <center>
+          <h6> UNITED NATIONS </h6><br>
+          <h4>PERSONAL HISTORY</h4>
+        </center>
+          </div>
+       <div class="col-md-4">
+        <center> 
+          <h6> Do not Write in This Spac</h6>   
+        </center>
+      </div>
+       
+
+
+        <div class="col-md-3">
+           <h6> <label for="validationDefault01" class="form-label">1. Family Name</label> </h6>
+            <input type="text" class="form-control" id="validationDefault01" name="familyname" value="Family Name" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault02" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="validationDefault02" name="firstname" value="First Name" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername" class="form-label">Middle Name</label>
+            <input type="text" class="form-control" id="validationDefault02" name="middlenaem" value="Middle Name" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername" class="form-label">Maiden Name, If any</label>
+            <input type="text" class="form-control" id="validationDefault02" name="maidenname" value="Name" required>
+          </div>
+
+
+
+
+          <div class="col-md-2">
+            <label for="validationDefault01" class="form-label">2. DOB(dd/mm/yy)</label>
+            <input type="date" class="form-control" id="validationDefault01" name="dob" value="Family Name" required>
+          </div>
+          <div class="col-md-2">
+            <label for="validationDefault02" class="form-label">3. Place of Birth</label>
+            <input type="text" class="form-control" id="validationDefault02" name="placeofbirth" value="Place of Birth" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername" class="form-label">4. Nationality(ies) at Birth</label>
+            <input type="text" class="form-control" id="validationDefault02" name="nationalityatbirth" value="Nationality" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername" class="form-label">5. Present Nationality(ies)</label>
+            <input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required>
+          </div>
+          <div class="col-md-2">
+            <label for="validationDefaultUsername" class="form-label">6. Sex</label>
+            <input type="text" class="form-control" id="validationDefault02" name="sex" value="Sex" required>
+          </div>
+
+
+         
+
+          <div class="col-md-2">
+            <label for="validationDefault01" class="form-label">7. Height</label>
+            <input type="date" class="form-control" id="validationDefault01" name="height" value="Height" required>
+          </div>
+          <div class="col-md-2">
+            <label for="validationDefault02" class="form-label">8. Weight</label>
+            <input type="text" class="form-control" id="validationDefault02" name="weight" value="Weight" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationDefaultUsername" class="form-label">9. Marital Status</label><br>
+            <input class="form-check-input" type="checkbox" id="gridCheck" name="single">
+            <label class="form-check-label" for="gridCheck">
+             Single             
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="form-check-input" type="checkbox" id="gridCheck1" name="married">
+            <label class="form-check-label" for="gridCheck1">
+              Married             
+             </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input class="form-check-input" type="checkbox" id="gridCheck2" name="separated">
+             <label class="form-check-label" for="gridCheck2">
+              Separated             
+             </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input class="form-check-input" type="checkbox" id="gridCheck3" name="widower">
+             <label class="form-check-label" for="gridCheck3">
+              Widow(er)             
+             </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input class="form-check-input" type="checkbox" id="gridCheck3" name="divorced">
+             <label class="form-check-label" for="gridCheck3">
+              Divorced             
+             </label>
+          </div>
+         
+
+
+
+          <div class="col-md-12">
+              <label for="validationDefaultUsername" class="form-label">
+              10. Entry into United Nations service might require assignment to any area of the world in which the United Nations might have responsibilities.<br>
+              (a) Are there any limitations on your ability to perform in your prospective field of work? 
+              <input class="form-check-input" type="checkbox" id="y1" name="limitationsyes">
+              <label class="form-check-label" for="y1">
+                YES             
+              </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input class="form-check-input" type="checkbox" id="n1" name="limitationsno">
+              <label class="form-check-label" for="n1">
+                NO             
+              </label>  
+              <br>
+              (b) Are there any limitations on your ability to engage in all travel? 
+              <input class="form-check-input" type="checkbox" id="y2"  name="limitationsyes1">
+              <label class="form-check-label" for="y2">
+                YES             
+              </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input class="form-check-input" type="checkbox" id="n2"  name="limitationsno2">
+              <label class="form-check-label" for="n2">
+                NO             
+              </label>  
+             </label> 
+           </div>
+
+
+
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">11. Permanent address</label>
+            <input type="text" class="form-control" id="validationDefault01" name="permanentaddress" value="Permanent address" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">12. Present address</label>
+            <input type="text" class="form-control" id="validationDefault02" name="presentaddress" value="Present address" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">13. Office Telephone No</label>
+            <input type="text" class="form-control" id="validationDefault02" name="Office Telephone No" value="Office Telephone No" required>
+          </div>
+
+
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label">Telephone No</label>
+            <input type="text" class="form-control" id="validationDefault01" name="telephoneno" value="Telephone No" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault02" class="form-label">Telephone/Fax No. </label>
+            <input type="text" class="form-control" id="validationDefault02" name="t/faxno. " value="Telephone/Fax No." required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault02" class="form-label">Office Fax No</label>
+            <input type="text" class="form-control" id="validationDefault02" name="officefaxno" value="Office Fax No" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault02" class="form-label">E-mail:</label>
+            <input type="text" class="form-control" id="validationDefault02" name="email:" value="E-mail:" required>
+          </div>
+
+
+
+          <div class="col-md-12">
+            <label for="validationDefaultUsername" class="form-label">
+              15. Do you have any dependent children? 
+            <input class="form-check-input" type="checkbox" id="c1" name="childreny1">
+            <label class="form-check-label" for="c1">
+              YES             
+            </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="form-check-input" type="checkbox" id="n1" name="childrenno1">
+            <label class="form-check-label" for="n1">
+              NO    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         If the answer is “yes”, give the following information:
+            </label>  
+            </label> 
+          </div>
+
+ 
+<!-- 
+          <div class="col-md-2">
+              <label for="validationDefault01" class="form-label">Name of Children</label>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault02" class="form-label">DOB (day/mm/year)</label>
+            </div>
+            <div class="col-md-2">
+              <label for="validationDefaultUsername" class="form-label">Place of Birth</label>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefaultUsername" class="form-label">Nationality</label>
+            </div>
+            <div class="col-md-2">
+              <label for="validationDefaultUsername" class="form-label">Gender</label>
+          </div> -->
+
+ 
+
+         <div class="table-responsive-md">
+         <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Name of Children</th>
+              <th scope="col">DOB (day/mm/year)</th>
+              <th scope="col">Place of Birth</th>
+              <th scope="col">Nationality</th>
+              <th scope="col">Gender</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+              <td><input type="date" class="form-control" id="validationDefault01" name="dob" value="dob" required></td>
+              <td><input type="date" class="form-control" id="validationDefault02" name="placeofbirth" value="" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="sex" value="Gender" required></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+              <td><input type="date" class="form-control" id="validationDefault01" name="dob" value="dob" required></td>
+              <td><input type="date" class="form-control" id="validationDefault02" name="placeofbirth" value="" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="sex" value="Gender" required></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+              <td><input type="date" class="form-control" id="validationDefault01" name="dob" value="dob" required></td>
+              <td><input type="date" class="form-control" id="validationDefault02" name="placeofbirth" value="" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="sex" value="Gender" required></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+              <td><input type="date" class="form-control" id="validationDefault01" name="dob" value="dob" required></td>
+              <td><input type="date" class="form-control" id="validationDefault02" name="placeofbirth" value="" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="sex" value="Gender" required></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+              <td><input type="date" class="form-control" id="validationDefault01" name="dob" value="dob" required></td>
+              <td><input type="date" class="form-control" id="validationDefault02" name="placeofbirth" value="" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="sex" value="Gender" required></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+              <td><input type="date" class="form-control" id="validationDefault01" name="dob" value="dob" required></td>
+              <td><input type="date" class="form-control" id="validationDefault02" name="placeofbirth" value="" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="sex" value="Gender" required></td>
+            </tr>  
+            <tr>
+              <td><label for="validationDefault01" class="form-label">Name of Children</label></td>
+              <td><input type="date" class="form-control" id="validationDefault01" name="dob" value="dob" required></td>
+              <td><input type="date" class="form-control" id="validationDefault02" name="placeofbirth" value="" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="presentnationality" value="Nationality" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="sex" value="Gender" required></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+
+
+      <div class="col-md-12">
+        <label for="validationDefaultUsername" class="form-label">
+          16. Have you taken up legal permanent residence status in any country other than that of your nationality?
+        <input class="form-check-input" type="checkbox" id="c1" name="childreny1">
+        <label class="form-check-label" for="c1">
+          YES             
+        </label> &nbsp;&nbsp;&nbsp; 
+        <input class="form-check-input" type="checkbox" id="n1" name="childrenno1">
+        <label class="form-check-label" for="n1">
+          NO    &nbsp;&nbsp;&nbsp;      
+        </label>  
+        </label> <br>
+        <label for="validationDefault02" class="form-label">If answer is “yes”, which country?</label>
+        <input type="text" class="form-control" id="validationDefault02" name="which country" value="which country">
+        <hr>
+      </div>
+
+      <div class="col-md-12">
+        <label for="validationDefaultUsername" class="form-label">
+          17. Have you taken any legal steps towards changing your present nationality?
+        <input class="form-check-input" type="checkbox" id="c1" name="childreny1">
+        <label class="form-check-label" for="c1">
+          YES             
+        </label> &nbsp;&nbsp;&nbsp; 
+        <input class="form-check-input" type="checkbox" id="n1" name="childrenno1">
+        <label class="form-check-label" for="n1">
+          NO    &nbsp;&nbsp;&nbsp;      
+        </label>  
+        </label> <br>
+        <label for="validationDefault02" class="form-label">If answer is “yes”, explain fully</label>
+        <input type="text" class="form-control" id="validationDefault02" name="which country" value="which country">
+        <hr>
+      </div>
+
+      <div class="col-md-12">
+        <label for="validationDefaultUsername" class="form-label">
+          18. Are any of your relatives employed by a public international organization?
+        <input class="form-check-input" type="checkbox" id="c1" name="childreny1">
+        <label class="form-check-label" for="c1">
+          YES             
+        </label> &nbsp;&nbsp;&nbsp; 
+        <input class="form-check-input" type="checkbox" id="n1" name="childrenno1">
+        <label class="form-check-label" for="n1">
+          NO    &nbsp;&nbsp;&nbsp;      
+        </label>  
+        </label> <br>
+        <label for="validationDefault02" class="form-label">If answer is “yes”, give the following information:</label>
+        <div class="table-responsive-md">
+          <table class="table table-dark">
+           <thead>
+             <tr>
+               <th scope="col">NAME</th>
+               <th scope="col">Relationship</th>
+               <th scope="col">Name of International Organization</th>              
+           </thead>
+           <tbody>
+             <tr>
+               <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+               <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Relationship" required></td>
+               <td><input type="text" class="form-control" id="validationDefault02" name="name" value="Organization" required></td>
+            </tr>
+            <tr>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+              <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Relationship" required></td>
+              <td><input type="text" class="form-control" id="validationDefault02" name="name" value="Organization" required></td>
+           </tr>
+           <tr>
+            <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Name" required></td>
+            <td><input type="text" class="form-control" id="validationDefault01" name="name" value="Relationship" required></td>
+            <td><input type="text" class="form-control" id="validationDefault02" name="name" value="Organization" required></td>
+           </tr> 
+           </tbody>
+         </table>
+       </div>
+      </div>
+
+
+      <div class="col-md-12">
+        <label for="inputEmail4" class="form-label">19. What is your preferred field of work?</label>
+        <input type="text" class="form-control" id="validationDefault02" name="field of work" value="field of work" required>
+      </div>
+
+
+
+
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">
+          20. Would you accept employment for less than six months? <br>
+        <input class="form-check-input" type="checkbox" id="c1" name="childreny1">
+        <label class="form-check-label" for="c1">
+          YES             
+        </label> &nbsp;&nbsp;&nbsp; 
+        <input class="form-check-input" type="checkbox" id="n1" name="childrenno1">
+        <label class="form-check-label" for="n1">
+          NO    &nbsp;&nbsp;&nbsp;      
+        </label>  
+        </label>   
+      </div>
+
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">
+          21. Have you previously submitted an application for employment and/or undergone any tests with U.N.?
+          <input class="form-check-input" type="checkbox" id="c1" name="childreny1">
+        <label class="form-check-label" for="c1">
+          YES             
+        </label> &nbsp;&nbsp;&nbsp; 
+        <input class="form-check-input" type="checkbox" id="n1" name="childrenno1">
+        <label class="form-check-label" for="n1">
+          NO    &nbsp;&nbsp;&nbsp;      
+        </label>  
+        </label> 
+      </div>
+ 
+      <div class="col-md-4">
+        <label for="inputEmail4" class="form-label">If so, when?</label>
+        <input type="text" class="form-control" id="validationDefault02" name="when" value="when" required>
+      </div>
+      
+      <div class="col-md-12">
+        <label for="inputEmail4" class="form-label">22. KNOWLEDGE OF LANGUAGES. What is your mother tongue?</label>
+        <input type="text" class="form-control" id="validationDefault02" name="mothertongue" value="mother's tongue" required>
+      </div>
+
+
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+   </section>
+  </body>
+</html>
